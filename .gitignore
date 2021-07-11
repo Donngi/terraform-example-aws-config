@@ -60,3 +60,4 @@ terraform.rc
 .terraform.lock.hcl
 lambda.zip
 .vscode
+tmp_local
