@@ -3,7 +3,7 @@
 # ------------------------------------------------------------
 
 resource "aws_s3_bucket" "config" {
-  bucket = "sample-aws-config-bucket"
+  bucket = "sample-aws-config-bucket-${data.aws_caller_identity.current.id}"
   acl    = "private"
 }
 
